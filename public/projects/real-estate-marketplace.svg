@@ -1,0 +1,31 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="rg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#rg1)"/>
+  <g opacity="0.15" stroke="#3B82F6" stroke-width="1">
+    <line x1="0" y1="125" x2="800" y2="125"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+  <rect x="80" y="90" width="640" height="320" rx="16" fill="#1E293B" stroke="#2A3A55"/>
+  <path d="M240 260 L340 180 L440 260 V330 H240 Z" fill="url(#rg2)" opacity="0.85"/>
+  <rect x="270" y="285" width="30" height="45" fill="#0F172A"/>
+  <rect x="380" y="285" width="30" height="45" fill="#0F172A"/>
+  <path d="M480 260 L560 200 L640 260 V330 H480 Z" fill="#334155"/>
+  <rect x="500" y="285" width="24" height="35" fill="#0F172A"/>
+  <rect x="596" y="285" width="24" height="35" fill="#0F172A"/>
+  <rect x="112" y="350" width="330" height="16" rx="6" fill="#334155"/>
+  <rect x="112" y="376" width="220" height="16" rx="6" fill="#334155"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" fill="#94A3B8" letter-spacing="1">Real Estate Marketplace</text>
+</svg>

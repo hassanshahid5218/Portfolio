@@ -1,0 +1,32 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g1)"/>
+  <g opacity="0.15" stroke="#3B82F6" stroke-width="1">
+    <line x1="0" y1="125" x2="800" y2="125"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+  <rect x="80" y="90" width="640" height="320" rx="16" fill="#1E293B" stroke="#2A3A55"/>
+  <rect x="112" y="130" width="180" height="130" rx="10" fill="#0F172A" stroke="#2A3A55"/>
+  <rect x="312" y="130" width="180" height="130" rx="10" fill="#0F172A" stroke="#2A3A55"/>
+  <rect x="512" y="130" width="164" height="130" rx="10" fill="#0F172A" stroke="#2A3A55"/>
+  <rect x="112" y="280" width="564" height="34" rx="8" fill="url(#g2)" opacity="0.85"/>
+  <rect x="112" y="326" width="360" height="16" rx="6" fill="#334155"/>
+  <rect x="112" y="352" width="260" height="16" rx="6" fill="#334155"/>
+  <circle cx="150" cy="180" r="18" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="350" cy="180" r="18" fill="#2563EB" opacity="0.6"/>
+  <circle cx="550" cy="180" r="18" fill="#3B82F6" opacity="0.6"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Sora, sans-serif" font-size="22" fill="#94A3B8" letter-spacing="1">Multi-Vendor E-Commerce Platform</text>
+</svg>
