@@ -1,5 +1,6 @@
 export const profile = {
   name: "Muhammad Hassan",
+  profileImage:"/public/profileimage.png",
   title: "Building Scalable Full-Stack Web Applications with MERN Stack",
   tagline:
     "MERN Stack Developer with hands-on experience building scalable full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Passionate about building clean, responsive, and user-focused applications.",
