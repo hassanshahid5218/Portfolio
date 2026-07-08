@@ -4,7 +4,7 @@ export const projects = [
     title: "Multi-Vendor E-Commerce Platform",
     description:
       "A full-stack multi-vendor e-commerce platform with dedicated buyer and seller dashboards, secure payments, and real-time buyer-seller chat.",
-    image: "/projects/multivendor-ecommerce.svg",
+    image: "/projects/multivendor-ecommerce.png",
     techStack: [
       "React.js",
       "Redux Toolkit",
@@ -37,7 +37,7 @@ export const projects = [
     title: "Real Estate Marketplace",
     description:
       "A full-stack real estate platform that allows users to buy, sell, and manage property listings with advanced search and secure authentication.",
-    image: "/projects/real-estate-marketplace.svg",
+    image: "/projects/real-estate-marketplace.png",
     techStack: [
       "React.js",
       "Redux Toolkit",
