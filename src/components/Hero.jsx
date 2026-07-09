@@ -223,22 +223,28 @@ export default function Hero() {
         </div>
 
         {/* Right Image Placeholder */}
-        <motion.div
-          variants={item}
-          className="flex justify-center lg:justify-end"
-        >
-          <div className="relative">
-            {/* Glow Effect */}
-            <div className="absolute inset-0 rounded-full bg-accent/20 blur-3xl"></div>
+          <motion.div
+            variants={item}
+            className="flex justify-center lg:justify-end"
+           >
+            <div className="relative">
 
-            {/* Replace this div with your image later */}
-            <img
-                src={profile.profileImage}
-                alt="Muhammad Hassan"
-                className="relative h-72 w-72 rounded-full border-4 border-accent/30 object-cover shadow-[0_0_60px_rgba(37,99,235,0.25)] sm:h-80 sm:w-80 lg:h-96 lg:w-96"
-            />
-          </div>
-        </motion.div>
+              {/* Soft Blue Glow */}
+              <div className="absolute -inset-6 rounded-[32px] bg-accent/20 blur-3xl"></div>
+
+              {/* Main Card */}
+              <div className="relative overflow-hidden rounded-[32px] border border-accent/20 bg-surface/80 p-3 shadow-2xl backdrop-blur-md">
+
+                <img
+                  src={profileImage}
+                  alt="Muhammad Hassan"
+                  className="h-[480px] w-[380px] rounded-[24px] object-cover object-top transition duration-500 hover:scale-[1.02]"
+                />
+
+              </div>
+
+            </div>
+          </motion.div>
       </motion.div>
 
       <motion.a
