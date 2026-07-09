@@ -236,7 +236,7 @@ export default function Hero() {
               <div className="relative overflow-hidden rounded-[32px] border border-accent/20 bg-surface/80 p-3 shadow-2xl backdrop-blur-md">
 
                 <img
-                  src={profileImage}
+                  src={profile.profileImage}
                   alt="Muhammad Hassan"
                   className="h-[480px] w-[380px] rounded-[24px] object-cover object-top transition duration-500 hover:scale-[1.02]"
                 />
