@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+.vite/
+*.tsbuildinfo
+
+# Environment files (this project needs none, but keep secrets out of git)
+.env
+.env.*
+!.env.example
+
+# Logs and OS/editor files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
